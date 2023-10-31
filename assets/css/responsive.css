@@ -1,0 +1,53 @@
+
+@media (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+/* Responsiv CSS Start Inportent */
+@media (max-width: 575.98px) {
+  .mb_1 {
+   padding-top: 0;
+  } 
+  .mt_1 {
+    margin-top: 2rem;
+  }
+  .mt_2 {
+    margin-top: 1rem;
+  }
+  .search_button {
+    display: inline-block;
+  }
+  .search_email {
+    width: 300px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .mb_1 {
+   padding-top: 0;
+  }
+  .mt_1 {
+    margin-top: 2rem;
+  }
+  .search_email {
+    width: 350px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .mb_1 {
+    padding-top: 0;
+  }
+  .mt_1 {
+    margin-top: 2rem;
+  }
+  .search_email {
+    width: 400px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .search_email {
+    width: 450px;
+  }
+}
+@media (min-width: 1200px) {}
+/* Responsiv CSS End Inportent */

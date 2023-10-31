@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'PT Sans', sans-serif;
+}
+/* Common CSS */
+/*  */
+.header_part {
+  padding: 40px 0;
+  background: #fcdb00;
+}
+.navbar-nav a {
+  font-size: 22px;
+  color: #010101;
+  display: flex;
+  justify-content: center;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 70px;
+}
+/* About Part Start */
+.about_part {
+  padding: 50px 0 100px 0;
+  background: #fcdb00;
+}
+.about_img img {
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+}
+.about_head h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 32px;
+  color: #010101;
+  font-weight: bold;
+}
+.about_con_main {
+  padding-top: 40px;
+}
+.about_con {
+  padding-top: 100px;
+}
+.about_con p {
+  font-size: 14px;
+  color: #010101;
+}
+.header_contact_icon {
+  text-align: left;
+}
+.header_contact_icon a {
+  font-size: 30px;
+  color: #010101;
+  padding-right: 30px;
+}
+/* About Part End */
+
+/* Feature Part Start */
+.feature_part {
+  padding: 60px 0;
+  background: #fff;
+}
+.feature_part h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 32px;
+  color: #010101;
+  font-weight: bold;
+}
+.text-center p {
+  color: #313841;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.contact_icon_main p {
+  text-align: center;
+  font-style: 16px;
+  color: #010101;
+}
+.port_con_main {
+  padding: 90px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 10px 0 0; */
+}
+
+.contact_con_inner p:nth-child(1){
+  font-size: 22px;
+  color: #010101;
+  font-weight: bold;
+}
+.contact_con_inner p {
+  font-size: 16px;
+  color: #010101;
+  text-align: left;
+}
+/* Feature Part End */
+/* Submit Part Start */
+.submit_part {
+  padding: 60px 0;
+  background: #010101;
+}
+.featuer_head h2 {
+  color: #fcdb00;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+.text-center p {
+  color: #898989;
+}
+/* Button Part */
+.search_button {
+  padding-top: 42px;
+}
+.search {
+  padding-right: 18px;
+}
+.search_email {
+  height: 50px;
+  width: 580px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 22px;
+}
+.button {
+  height: 50px;
+  width: 120px;
+  background: #fbdb00;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #010101;
+  font-style: 16px;
+}
+
+.button:hover {
+  background: #ffdd00ee;
+}
+
+.submit_icon {
+  text-align: center;
+  padding-top: 75px;
+}
+.sub_icon_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit_icon a {
+  height: 50px;
+  width: 50px;
+  background: #fcdb00;
+  border: 1px solid #fcdb00;
+  border-radius: 25%;
+  margin: 0 20px;
+  font-size: 42px;
+  color: #010101;
+}
+
+.submit_icon a:hover {
+  background: #ffdd00ee;
+  border: 1px solid #ffdd00ee;
+  color: #010101;
+}
+
+/* Submit Part End */
+
+/* Contact Part Start */
+.contact_part {
+  padding: 80px 0;
+  background: #010101;
+}
+.addres_con p {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.addres_con a {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.addres_con a:hover {
+  color: #ffdd00ee;
+}
+
+/* Contact Part End */
